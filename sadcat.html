@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ให้แฟน ♥</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="window">
+        
+    
+        <div class="window-body">
+            <img id="cat-img" src="giphy.gif" alt="Cute gif" class="window-gif">
+            <p id="cat-text" class="sad-text">Do you not love me?</p>
+            <a href="index.html" class="rpg-btn" title="Replay">click here if you do</a>
+
+        </div>
+
+        <script>
+
+  if (sessionStorage.getItem('readLetter') === 'true') {
+    document.getElementById('cat-img').src = 'happycat.gif';
+    document.getElementById('cat-text').textContent = 'Do you love me?';
+  }
+</script>
+    </div>
+
+
+
+
+
+
+
+
+</html>
